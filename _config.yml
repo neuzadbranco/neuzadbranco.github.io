@@ -1,4 +1,4 @@
-title: Hi there!
+title: Neuza Branco
 author: Neuza Branco
 email: neuzabrancodesign@gmail.com
 description: > # this means to ignore newlines until "exclude"
@@ -17,6 +17,4 @@ date_format: "%b %-d, %Y"
 
 # generate social links in footer
 social_links:
-  twitter: danielfdsilva
-  github:  danielfdsilva
-  # facebook:
+  linkedin: neuzabranco
