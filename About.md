@@ -1,6 +1,9 @@
 ---
-layout: default
+layout: about
 title: About
 ---
 
-This is an about page.
+
+![pato](/assets/images/pato.png)
+
+olá

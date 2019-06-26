@@ -1,8 +1,7 @@
 title: Neuza Branco
 author: Neuza Branco
 email: neuzabrancodesign@gmail.com
-description: > # this means to ignore newlines until "exclude"
-  Web portfolio, 2019.
+description: Web portfolio, 2019.
 
 exclude:
   - Gemfile
