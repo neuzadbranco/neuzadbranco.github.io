@@ -2,5 +2,9 @@
 
 <ul class="social-media-list">
   {%- if social.linkedin -%}<li><a href="https://linkedin.com/in/neuzabranco/{{ social.linkedin | cgi_escape | escape }}" title="{{ social.linkedin | escape }}"><svg class="svg-icon grey"><use xlink:href="{{ '/assets/minima-social-icons.svg#linkedin' | relative_url }}"></use></svg></a></li>{%- endif -%}
+
+  {%- if social.behance -%}<li><a href="https://behance.net/{{ social.behance | cgi_escape | escape }}" title="{{ social.behance | escape }}"><svg class="svg-icon grey"><use xlink:href="{{ '/assets/minima-social-icons.svg#behance' | relative_url }}"></use></svg></a></li>{%- endif -%}
+
 </ul>
+
 
