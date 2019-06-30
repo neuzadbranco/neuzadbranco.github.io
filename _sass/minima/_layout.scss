@@ -121,14 +121,14 @@
 .homecontent {
   width: 100%;
   height: 100px;
-  margin: auto;
   text-align: center;
-  line-height: 100px;
   font-size: 60px;
+  vertical-align: middle;
+  line-height: 90px;
 }
 
 .form {
-  margin-top: 30px;
+  margin-top: 5px;
 }
 
 /**
@@ -226,13 +226,32 @@
     background-color: $orange-color;
     width: 100%;
     height: 300px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 110px;
+    animation: pulse 5s infinite;
   }
 
+  @keyframes pulse {
+  0% {
+    background-color: #f3c228;
+  }
+
+  50% {
+    background-color: #F3A328;
+  }
+
+  100% {
+    background-color: #f3c228;
+  }
 }
 
+}
+ 
 
 .post-list a {
-  color: $text-color;
+  color: #FFFFFF;
+  font-size: 27px;
 }
 
 .post-meta {
@@ -245,14 +264,13 @@
   @include relative-font-size(1.5);
 }
 
-
 .about {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   margin: auto;
-
+  margin-bottom: 50px;
 }
 
 
