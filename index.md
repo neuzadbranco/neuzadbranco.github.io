@@ -2,4 +2,6 @@
 layout: home
 ---
 
-**Hello!<br>My name is Neuza #FFFFFF**
+Hello!  
+My name is **Neuza Branco.**  
+I'm a Portuguese **digital designer.**
